@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(2,0,36,1);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(128, 1, 1);  
+    border-radius: 20px;       
+    border: 3px solid rgb(11, 2, 58);
+  }
+
+header{
+    
+
+}
+
+body {
+    background: linear-gradient(140deg, black, red, darkblue , black, darkred, black) ;
+    background-size: 500% 400%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% { background-position:0% 19% }
+    50% { background-position:100% 82% }
+    100% { background-position:0% 19% }
+}
+
+@-moz-keyframes AnimationName {
+    0% { background-position:0% 19% }
+    50% { background-position:100% 82% }
+    100% { background-position:0% 19% }
+}
+
+@keyframes AnimationName {
+    0% { background-position:0% 19% }
+    50% { background-position:100% 82% }
+    100% { background-position:0% 19% }
+}
+
+
+
+p{
+    text-align: right;
+    color: white;
+    font-size: 12px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px ;
+}
+
+
+.figura{
+    padding: 25px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.figura {
+    float: left;
+    width: 22%;
+    margin-left: 1.5%;
+    margin-right: 0.5%;
+    opacity: 1;
+    transition: 0.9s;
+    flex-direction: column;
+    cursor: pointer;
+}
+div.figura p {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    font-size: 25px; 
+}
+
+DIV.figura {
+    min-width: 240px;
+}
+
+div.figura:hover {
+    opacity: 0.5;
+    transform: scale(1.1)
+}
+
+div.figura h2{
+    font-size: 20px;
+}
+
+div.tabela{
+    color: white;
+}
+
+table{
+    color: white;
+    border-color: white ;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
